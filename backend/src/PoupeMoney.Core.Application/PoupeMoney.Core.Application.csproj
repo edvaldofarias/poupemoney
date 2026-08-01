@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\PoupeMoney.Core.Domain\PoupeMoney.Core.Domain.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="PoupeMoney.Core.UnitTests"/>
+    </ItemGroup>
+</Project>

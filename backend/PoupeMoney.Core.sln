@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5ECAB41C-ADC1-4B00-803A-1D5696F19071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B48AA23-CB82-4C2B-9896-6BA520490ACF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		docker-compose.yml = docker-compose.yml
+		global.json = global.json
+		nuget.config = nuget.config
+		README.md = README.md
+		.dockerignore = .dockerignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoupeMoney.Core.Domain", "src\PoupeMoney.Core.Domain\PoupeMoney.Core.Domain.csproj", "{7E524786-A7B8-47BB-B7F5-F8ABABDE2009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoupeMoney.Core.Infrastructure.SqlServer", "src\PoupeMoney.Core.Infrastructure.SqlServer\PoupeMoney.Core.Infrastructure.SqlServer.csproj", "{F9D22ED4-D25F-4090-842D-01C1A429B444}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{30BE40EB-C287-4D5C-982A-78A24C0B3AB5}"
+	ProjectSection(SolutionItems) = preProject
+		test\Directory.Build.props = test\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoupeMoney.Core.IntegrationTests", "test\PoupeMoney.Core.IntegrationTests\PoupeMoney.Core.IntegrationTests.csproj", "{C24FB9E9-5DD4-4B03-B376-87A54CB3F9A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoupeMoney.Core.UnitTests", "test\PoupeMoney.Core.UnitTests\PoupeMoney.Core.UnitTests.csproj", "{19E95B8B-3276-46DD-8FA0-200CC49AE408}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoupeMoney.Core.Commons", "test\PoupeMoney.Core.Commons\PoupeMoney.Core.Commons.csproj", "{9F6A132F-0698-4CD4-8A7E-01C2E26CAC70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{8D6CF14C-E263-480E-BEFD-EB7C9FA88B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{01BD361E-EB4E-4836-8076-EBACBD45885E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastrucure", "4 - Infrastrucure", "{CFF6D8D1-9CBC-4674-99A2-26A6F42C0B3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{84023674-7C66-4037-AF27-E6975C601602}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoupeMoney.Core.Application", "src\PoupeMoney.Core.Application\PoupeMoney.Core.Application.csproj", "{CFE839D2-5DA8-4134-A715-9095DAD7F8DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoupeMoney.Core.WebApi", "src\PoupeMoney.Core.WebApi\PoupeMoney.Core.WebApi.csproj", "{2386F34D-572F-4AF6-9B3E-3991A71BF56B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E524786-A7B8-47BB-B7F5-F8ABABDE2009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E524786-A7B8-47BB-B7F5-F8ABABDE2009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E524786-A7B8-47BB-B7F5-F8ABABDE2009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E524786-A7B8-47BB-B7F5-F8ABABDE2009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D22ED4-D25F-4090-842D-01C1A429B444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D22ED4-D25F-4090-842D-01C1A429B444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D22ED4-D25F-4090-842D-01C1A429B444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D22ED4-D25F-4090-842D-01C1A429B444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24FB9E9-5DD4-4B03-B376-87A54CB3F9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24FB9E9-5DD4-4B03-B376-87A54CB3F9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24FB9E9-5DD4-4B03-B376-87A54CB3F9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24FB9E9-5DD4-4B03-B376-87A54CB3F9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E95B8B-3276-46DD-8FA0-200CC49AE408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E95B8B-3276-46DD-8FA0-200CC49AE408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E95B8B-3276-46DD-8FA0-200CC49AE408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E95B8B-3276-46DD-8FA0-200CC49AE408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6A132F-0698-4CD4-8A7E-01C2E26CAC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6A132F-0698-4CD4-8A7E-01C2E26CAC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6A132F-0698-4CD4-8A7E-01C2E26CAC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6A132F-0698-4CD4-8A7E-01C2E26CAC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE839D2-5DA8-4134-A715-9095DAD7F8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE839D2-5DA8-4134-A715-9095DAD7F8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE839D2-5DA8-4134-A715-9095DAD7F8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE839D2-5DA8-4134-A715-9095DAD7F8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2386F34D-572F-4AF6-9B3E-3991A71BF56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2386F34D-572F-4AF6-9B3E-3991A71BF56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2386F34D-572F-4AF6-9B3E-3991A71BF56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2386F34D-572F-4AF6-9B3E-3991A71BF56B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E524786-A7B8-47BB-B7F5-F8ABABDE2009} = {8D6CF14C-E263-480E-BEFD-EB7C9FA88B4E}
+		{F9D22ED4-D25F-4090-842D-01C1A429B444} = {CFF6D8D1-9CBC-4674-99A2-26A6F42C0B3A}
+		{C24FB9E9-5DD4-4B03-B376-87A54CB3F9A3} = {30BE40EB-C287-4D5C-982A-78A24C0B3AB5}
+		{19E95B8B-3276-46DD-8FA0-200CC49AE408} = {30BE40EB-C287-4D5C-982A-78A24C0B3AB5}
+		{9F6A132F-0698-4CD4-8A7E-01C2E26CAC70} = {30BE40EB-C287-4D5C-982A-78A24C0B3AB5}
+		{8D6CF14C-E263-480E-BEFD-EB7C9FA88B4E} = {5ECAB41C-ADC1-4B00-803A-1D5696F19071}
+		{01BD361E-EB4E-4836-8076-EBACBD45885E} = {5ECAB41C-ADC1-4B00-803A-1D5696F19071}
+		{CFF6D8D1-9CBC-4674-99A2-26A6F42C0B3A} = {5ECAB41C-ADC1-4B00-803A-1D5696F19071}
+		{84023674-7C66-4037-AF27-E6975C601602} = {5ECAB41C-ADC1-4B00-803A-1D5696F19071}
+		{CFE839D2-5DA8-4134-A715-9095DAD7F8DF} = {84023674-7C66-4037-AF27-E6975C601602}
+		{2386F34D-572F-4AF6-9B3E-3991A71BF56B} = {01BD361E-EB4E-4836-8076-EBACBD45885E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79725FFC-AF86-4536-8A2B-AE12B3AB41F3}
+	EndGlobalSection
+EndGlobal
